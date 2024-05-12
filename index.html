@@ -1,0 +1,727 @@
+
+  <!--
+  <script src="https://cdn.jsdelivr.net/npm/console-ban@5.0.0/dist/console-ban.min.js"></script>
+  
+  <script>
+
+	var _0x5c16=["\x69\x6E\x69\x74","\x2F\x34\x30\x34","\x6F\x6E\x63\x6F\x6E\x74\x65\x78\x74\x6D\x65\x6E\x75","\x6F\x6E\x6B\x65\x79\x64\x6F\x77\x6E","\x6B\x65\x79\x43\x6F\x64\x65","\x65\x76\x65\x6E\x74","\x62\x75\x74\x74\x6F\x6E"];ConsoleBan[_0x5c16[0]]();ConsoleBan[_0x5c16[0]]({redirect:'https://google.com'});window[_0x5c16[2]]= function(){return false};document[_0x5c16[3]]= function(_0x2deax1){if(window[_0x5c16[5]][_0x5c16[4]]== 123|| _0x2deax1[_0x5c16[6]]== 2){return false}}
+  </script>
+  --> 
+
+<!DOCTYPE html>
+<html lang="en" class="notranslate" translate="no">
+	<head>
+		<meta name="referrer" content="no-referrer">
+		<meta name="google" content="notranslate" />
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	    <meta name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=5, width=device-width">
+	    <meta name="description" content="Aplicativo Web de luansTV">
+
+    	<meta name="theme-color" content="#22476c">
+
+
+	    <link rel="icon" href="favicon.ico" type="image/x-icon">
+	    <link rel="apple-touch-icon" sizes="57x57" href="images/icons/57x57.png" />
+    	<link rel="apple-touch-icon" sizes="114x114" href="images/icons/114x114.png" />
+
+	    <meta name="theme-color" content="#16537e">
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    
+	    <title>luansTV</title>
+
+	    <link rel="stylesheet" type="text/css" href="css/lib/select2.css">
+	    <link rel="stylesheet" type="text/css" href="css/lib/bootstrap.css">
+	    <link rel="stylesheet" type="text/css" href="css/lib/sweetalert2.min.css">
+
+	    <script type="text/javascript" src="js/lib/jquery.js"></script>
+	    <script type="text/javascript" src="js/lib/alertifyjs/build/alertify.min.js"></script>
+	    <script type="text/javascript" src="js/lib/select2.js"></script>
+
+		<script type="text/javascript" src="js/main.js"></script>
+
+									<script type="text/javascript" src="js/menu.js"></script>
+					
+		<link href="js/lib/alertifyjs/build/css/alertify.min.css" rel="stylesheet">
+		<link href="js/lib/alertifyjs/build/css/themes/bootstrap.min.css" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,900&display=swap" rel="stylesheet">
+
+		<!--===============================================================================================-->
+			<link rel="stylesheet" type="text/css" href="css/layout.css">
+		<!--===============================================================================================-->
+		<script type="text/javascript">document.cookie = 'screenwidth='+window.innerWidth+'; expires=Thu, 18 Dec 2033 12:00:00 UTC; path=/';</script>
+		<script type="text/javascript">
+			function displayWindowSize(){
+			   document.cookie = 'screenwidth='+window.innerWidth+'; expires=Thu, 18 Dec 2033 12:00:00 UTC; path=/';
+			}
+			window.addEventListener("resize", displayWindowSize);
+		</script>
+
+		
+		
+			</head>
+
+	<body>
+		
+	  			<div class="row px-2 m-0 bg-navbar">
+		<div class="col-6 p-0 mt-3 ">
+				<img class="luanlogo pl-1" src="images/channels/1.png"  >
+				
+			<span class="label_renovate" onclick="location.href='account'" >Renovar Plan</span>
+		</div>
+
+		<div class="col-6 p-0 mt-2">
+		<div class="float-right mt-1">
+						<span class="label_days">Días Restantes</span>
+							<img data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  class="dropdown-toggle icon_gold icon_profile logo_team"style="position: relative; top: 6px; height: 30px; padding-right: 4px;" src="images/teams/4.png?05" alt="logo escudo">
+				
+				<!-- <img data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  class="dropdown-toggle icon_gold icon_profile mt-1" src="images/buttons/button_profile.svg"> -->
+				<div class="dropdown-menu dropdown-menu-right">
+				
+				<span class="dropdown-item text-primary"><?php echo $_SESSION['name']; ?></span>
+				<hr class="border border-secondary">
+								<button class="dropdown-item" type="button" onclick="location.href='account'" >Renovar Plan</button>
+			    <button class="dropdown-item" type="button">Tabla de posiciones</button>
+							    <button class="dropdown-item" type="button"  onclick="location.href='password'"  >Cambiar clave</button>
+			    <hr class="border border-secondary">
+			    			    <button class="dropdown-item" type="button" onclick="location.href='../logout.php'">Salir</button>
+			</div>
+			</span>
+		</div>
+	</div>
+</div>
+					    
+		<!-- /.navbar -->
+
+		<!-- MAIN -->
+		 			<main class="container-fluid flex-fill px-0" >
+
+				<section class="content" style="position: relative; margin-top: 10px">
+					<div class="mt-md-1 mb-5">
+				
+			
+
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+
+	<script type="text/javascript" src="js/lib/cast_sender.js"></script>
+
+	
+		<div class="row px-2 mx-0 d-flex justify-content-center" >
+
+			
+			 	
+				
+				
+					
+													
+								 
+							<div class="col-3 p-1 text-center" onclick="location.href='../home.php'">
+								<div class="channel_button  ">
+																		<img class="channel_logo " src="images/channels/1.png">
+								</div>
+							</div>
+
+							
+							
+						
+											
+													
+								 
+							<div class="col-3 p-1 text-center" onclick="location.href='win'">
+								<div class="channel_button  ">
+																		<img class="channel_logo " src="images/channels/2.png">
+								</div>
+							</div>
+
+							
+							
+						
+											
+													
+								 
+							<div class="col-3 p-1 text-center" onclick="location.href='espn'">
+								<div class="channel_button  ">
+																		<img class="channel_logo " src="images/channels/3.png">
+								</div>
+							</div>
+
+							
+							
+						
+											
+													
+								 
+							<div class="col-3 p-1 text-center" onclick="location.href='directv'">
+								<div class="channel_button  ">
+																		<img class="channel_logo " src="images/channels/9.png">
+								</div>
+							</div>
+
+							
+							
+						
+											
+													
+								 
+							<div class="col-3 p-1 text-center" onclick="location.href='foxsport'">
+								<div class="channel_button  ">
+																		<img class="channel_logo " src="images/channels/12.png">
+								</div>
+							</div>
+
+							
+							
+						
+											
+													
+								 
+							<div class="col-3 p-1 text-center" onclick="location.href='hbo'">
+								<div class="channel_button  ">
+																		<img class="channel_logo " src="images/channels/15.png">
+								</div>
+							</div>
+
+							
+							
+						
+											
+													
+								 
+							<div class="col-3 p-1 text-center" onclick="location.href='caracol'">
+								<div class="channel_button  ">
+																		<img class="channel_logo " src="images/channels/22.png">
+								</div>
+							</div>
+
+							
+							
+						
+											
+													
+								 
+							<div class="col-3 p-1 text-center" onclick="location.href='rcn'">
+								<div class="channel_button  ">
+																		<img class="channel_logo " src="images/channels/23.png">
+								</div>
+							</div>
+
+							
+				
+				
+			
+		</div>
+
+	
+					<div onclick="location.href='channels/index.html'" class="col-12 mt-3 text-center" >
+			<button class="button_allchannels"  >
+				VER TODOS
+			</button>
+		</div>
+
+		
+	
+	<!------------------------ VIDEO PLAYER -------------------------------------->
+
+	
+		
+		
+			<div class="div_videoplayer col-12 p-0 mb-2 text-center">
+				<small class="" style="color: dimgray; cursor: pointer;"  onclick="location.href='config/videosettings?channel=1'">
+					 	
+
+					 
+						Opción : 1 de 1 &nbsp; | &nbsp; Atraso: Estandar &nbsp; | &nbsp; Formato: HLS									</small>
+			</div>
+
+						<div class="col-12 d-flex justify-content-center px-1">
+				<div id="videoplayer" class="d-flex justify-content-center">					
+					<script type="text/javascript" src="js/screen_window.js?v01"></script>
+
+
+
+<script src="players/clappr/clappr.min.js?1706936729"></script>
+<script src="players/clappr/clappr-chromecast-plugin.js"></script>
+
+<script src="players/clappr/clappr-airplay.min.js"></script>
+<script src="players/clappr/clappr-pip.min.js"></script>
+<script src="players/clappr/level-selector.min.js"></script>
+
+
+
+ 
+
+
+<script type="text/javascript">
+  var m3u8_link         = 'https://strm1120.in/lb0/cloudstrmtkz1_SD/index.m3u8';
+  var format            = 'HLS';
+</script>
+
+  <script type="text/javascript">
+    const isValidUrl = (urlString) => {
+      var urlPattern = new RegExp('^(https?:\\/\\/)?' + // validate protocol
+          '((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|' + // validate domain name
+          '((\\d{1,3}\\.){3}\\d{1,3}))' + // validate OR ip (v4) address
+          '(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*' + // validate port and path
+          '(\\?[;&a-z\\d%_.~+=-]*)?' + // validate query string
+          '(\\#[-a-z\\d_]*)?$', 'i'); // validate fragment locator
+      return !!urlPattern.test(urlString);
+    }
+      
+    var prevent_phperror  = m3u8_link.includes("Notice");
+
+    if(prevent_phperror){
+      m3u8_link = '';
+    }
+  </script>
+
+<script>
+
+  if(m3u8_link != ''){    
+    var validate_m3u8 = isValidUrl(m3u8_link);
+
+    if(format == 'YOUTUBE'){
+      validate_m3u8 = true;
+    }
+    
+    if( validate_m3u8 == false ){
+      
+      $.ajax({
+        type:"POST",
+        url:"check/seterrorfile",
+        dataType: "json", 
+        data:{ m3u8_link: m3u8_link },
+        success:function(data){ 
+          $('#videoplayer').html('<h6 class="link_invalid">El link del video no es valido, dar click en el botón para cerrar la sesión, y volver a ingresar.<br><br>Enviar esta informacion al administrador: &nbsp;<font color="red">'+data+'</font><br><br><br><span class="label_renovate" onclick="location.href=\'index/logout\'">CERRAR SESION</span></h6>');
+          $("#chromecast_button").remove();
+          $('.dcma').remove();
+        },error: function( jqXHR, textStatus, errorThrown ) {
+          $('#videoplayer').html('<h6 class="link_invalid">ERROR - El link del video no es valido, dar click en el botón para cerrar la sesión, y volver a ingresar<br><br><span class="label_renovate" onclick="location.href=\'index/logout\'">CERRAR SESION</span></h6>');    
+          $("#chromecast_button").remove();
+          $('.dcma').remove();
+        }
+      }).fail( function( jqXHR, textStatus, errorThrown ) {
+        $('#videoplayer').html('<h6 class="link_invalid">FAIL - El link del video no es valido, dar click en el botón para cerrar la sesión, y volver a ingresar<br><br><span class="label_renovate" onclick="location.href=\'index/logout\'">CERRAR SESION</span></h6>');   
+        $("#chromecast_button").remove();
+        $('.dcma').remove();
+      });
+    }else
+    {
+      var message = '';
+      var playerElement = document.getElementById("player-container");
+      var retry = 4;
+      var ErrorPlugin = Clappr.ContainerPlugin.extend({
+        name: 'error_plugin',
+        background: 'https://wallpaperaccess.com/full/2752921.png',
+        bindEvents: function() { this.listenTo(this.container, Clappr.Events.CONTAINER_ERROR, this.onError) },
+        hide: function() { this._err && this._err.remove() },
+        show: function() {
+          var $ = Clappr.$
+          this.hide();
+
+          var txt = (this.options.errorPlugin && this.options.errorPlugin.text) ? this.options.errorPlugin.text : 'Error de conexion con el video.';
+
+          var width_window = window.innerWidth;
+
+          var font_size = (width_window < 800) ? '12px' : '20px';
+
+          if($('#test_error').length <= 0 ){
+              if(message == '404 - Not Found' || message == '404 - '){
+                  message = '404 - SIN TRANSMISIÓN en este momento';
+              }else if(message == '0 - '){
+                  message = '0 - Al parecer la velocidad de internet es inferior a 20 megas';
+              }
+              this._err = $('<div>')
+            .css({
+              'position': 'absolute',
+              'z-index': '999',
+              'width': '100%',
+              'height': '100%',
+              'background-image': 'url(' + this.background + ')',
+              'background-size': 'auto',
+              'background-repeat': 'no-repeat',
+              'padding-top': '5%',
+              'text-align': 'center',
+              'color':'gray'
+            })
+            .append($('<h2>')
+              .css({
+                'font-size': '100%',
+              }))
+            .append($('<p id="test_error" >').html(message)
+              .css({
+                'font-size': font_size,
+                'margin': '0px',
+                'color':'white',
+                'background-color':'black',
+              }))
+            .append($('<p>').html('Reintentando conectarse en <span class="retry-counter">5</span> segundos ...')
+              .css({
+                'width': '100%',
+                'font-size': font_size,
+                'margin': '12px',
+              }))
+            ;
+           
+          this.container && this.container.$el.prepend(this._err);
+          } 
+        },
+        onError: function(e) {
+          if (!this.container) return;
+          this.show();
+          this.container.getPlugin('click_to_pause').disable();
+          var tid, t = 10, retry = function() {
+            clearTimeout(tid);
+            
+            if (t === 0) {
+              this.container.getPlugin('click_to_pause').enable();
+              if (this.options.errorPlugin && this.options.errorPlugin.onRetry) {
+
+                this.options.errorPlugin.onRetry(e);
+                return;
+              } else {
+                this.container.stop();
+                this.container.play();
+                return;
+              }
+            }
+            $('.retry-counter').text(t);
+            t--;
+            tid = setTimeout(retry, 1000);
+          }.bind(this);
+          retry();
+        }
+      });
+
+
+      if(format == 'DASH'){
+        var variable_plugins = [ErrorPlugin,ChromecastPlugin,LevelSelector,ClapprPip.PipButton,ClapprPip.PipPlugin,DashShakaPlayback];
+      }else if(format == 'YOUTUBE'){
+        var variable_plugins = [ErrorPlugin,ChromecastPlugin,LevelSelector,ClapprPip.PipButton,ClapprPip.PipPlugin,YoutubePlugin, YoutubePlugin]; 
+      }else{
+        var variable_plugins = [ErrorPlugin,ChromecastPlugin,LevelSelector,ClapprPip.PipButton,ClapprPip.PipPlugin];
+      }
+
+      options = {
+          source: m3u8_link,
+          parentId: '#videoplayer',
+          disableErrorScreen: true,
+          autoplay: true,
+          buffering: true,
+          playinline:true,
+          playback: {
+            playInline: true,
+            hlsjsConfig:{
+              maxBufferSize: 0,           // Highly recommended setting in live mode
+              maxBufferLength: 10,        // Highly recommended setting in live mode
+              liveSyncDurationCount: 10,  // Highly recommended setting in live mode
+              preload: "auto",
+            }
+          },
+          poster: 'images/logo.png',
+          fullscreenEnabled:'true',
+          hideMediaControl: 'false',
+          fullscreenEnabled: 'true',
+          plugins: variable_plugins,
+          disableVideoTagContextMenu: true,
+          mediacontrol: {seekbar: "#000", buttons: "#f8e116"},
+          language: 'es-CO',
+          strings: {
+              'es-CO': {
+                'live': ' luanSTV',
+                'playback_not_supported': 'Su navegador web, no soporta la reproducción de este video. Por favor, intente usar un navegador web diferente.'
+               }
+          },
+          chromecast: {
+            appId: '9DFB77C0',
+            media: {
+                type: ChromecastPlugin.Movie,
+                title: 'luansTV',
+                subtitle: 'Disfruta nuestro aplicativo, Futbol y mas'
+              }
+          },          
+          levelSelectorConfig: {
+              title: 'Quality',
+              labels: {
+                  9: '',
+                  8: '',
+                  7: '',
+                  6: '',
+                  5: '',
+                  4: '',
+                  3: '',
+                  2: '', // 500kbps
+                  1: '', // 
+                  0: '', // 720
+              },
+              labelCallback: function(playbackLevel, customLabel) {
+                  return customLabel + playbackLevel.level.height+'p'; // High 720p
+              }
+          },
+          errorPlugin: {
+              onRetry: function(e) {
+                //window.location.reload(true);
+                if( e.raw.context !== undefined && e.raw.context !== null ){
+                  //message = (e.raw.response.code).toString()+' - '+(e.raw.response.text).toString();
+                  message = (e.raw.response.code).toString()+' - '+(e.raw.response.text).toString();
+                } 
+                setTimeout(function() { 
+                  player.configure(player.options); 
+                  player.play();
+                  $('[data-player]').css('width','100%').css('height', screen_height);
+                }, 100);
+                
+              }
+          },
+          events: {
+              onReady: function() { 
+                  var plugin = this.getPlugin('click_to_pause'); plugin && plugin.disable();
+                  $('[data-player]').css('width','100%').css('height', screen_height);
+              },
+              onError: function(e) {
+                if( e.raw.context !== undefined && e.raw.context !== null ){
+                  message = (e.raw.response.code).toString()+' - '+(e.raw.response.text).toString();
+                } 
+                
+              },
+          },
+      }
+      
+      var player = new Clappr.Player( options );
+      player.play();
+      
+      $('#width_screen').html("Altura: "+height_window+ " - Width: "+window.innerWidth+" - medida:"+screen_height);
+      $('[data-player]').css('width','100%').css('height', screen_height);
+
+      if (navigator.userAgent.match('Android')) {
+          player.on('fullscreen', function(isFullscreen) {
+              if (isFullscreen) {
+                  screen.orientation.lock('landscape');
+              }
+          });
+      };
+    }
+  }else{
+    $('#videoplayer').html('<h6 class="link_invalid">PHPERROR - El link del video no es valido, dar click en el botón para cerrar la sesión, y volver a ingresar<br><br><span class="label_renovate" onclick="location.href=\'index/logout\'">CERRAR SESION</span></h6>');   
+  }
+</script>
+<script type="text/javascript">
+	$('#videoplayer').css('width', width_window );
+</script>
+				</div>	
+			</div>
+
+			<div class="col-12 text-center mt-2 mb-2">
+								
+					
+					
+					<span id="chromecast_button">
+											<span class="label_icon_gold mt-1">Tran: &nbsp;</span>
+						<img class="icon_gold button_cast mr-1" src="images/buttons/button_cast.svg">&nbsp;
+					</span>
+
+																		<span onclick="set_fullscreen();">
+												<span class="label_icon_gold mt-1">Max: &nbsp;</span>
+						<img class="icon_gold mr-1"  src="images/buttons/button_maximized.svg">&nbsp;	
+					</span>
+					
+					<span onclick="location.href='config/videosettings'">
+												<span class="label_icon_gold mt-1">Conf: &nbsp;</span>
+						<img class="icon_gold"  src="images/buttons/button_settings.svg">
+					</span>
+							</div>
+
+			<div class="col-12 px-5 text-center mt-3 ">
+				<h1 onclick="location.href='index/DCMA'" class="dcma">DCMA 1 </h1>
+			</div>
+
+		
+		<!-- SCRIPT kfldoip83 -->
+		<script type="text/javascript">
+						function kfldoip83(){
+			    $.getJSON( "check/kfldoip83", { ncytwla: 'TjVzDB05A0OyHxqFAUv5eovnFAPvqV5D2p5g3y39cHySFTbSO9MM9DYtrCdyje85kAZkVaIFqjuKjsidB0IQgoDvAzf3Y3Ayb0UMMBgNVjZ8c6iR7mOqg92tFwI2Ttv4OZXvwEEc4QyOVpMEhHk22kpUhbXGoLZnOWmVzUd0QlTaCyc2A19yUmJu8WBURVsaVoNat1Kj8XuThfwuSLs0TLISrmQWzio2hzIfg8sjHtpND1uxlX7TkjmCUFwBCvRpAw2IxWfT124mOrd6EIHYgIe1QlWUjCI9pZruQP1JOXCbFw31I5YKAAzWc8D209246' } )
+			    .done( function( njgfu2 ) {
+			    	if(njgfu2 !== 'ok'){
+			    		location.reload(true);
+			    	}			  
+				 });
+			    setTimeout(kfldoip83, 30000);
+			}
+			kfldoip83();
+		</script>
+
+	
+
+	<!-- VIDEO SUSCRIPTION -->
+
+	
+
+		<script type="text/javascript">
+
+			$(document).on("click","#subscription",function(e){
+
+				
+				
+		        
+		        
+				
+				
+		        
+				
+		    });
+		</script>
+		
+	
+			<script type="text/javascript" src="js/cast.js?v01"></script>
+	
+	
+
+							</div>
+				</section>
+			</main>		
+		
+					<div class="footer p-0">  
+			    <div class="col-12 row d-flex justify-content-center">
+
+				    <div class="col-3 pl-4">
+				    	<span class="cursor_css"  onclick="location.href='.'" >
+				    		<div class="col-12 mt-2 ml-1">
+								<span>
+									<img class="icon_gold_footer" src="../images/buttons/button_home.svg">
+								</span>
+							</div>
+				    		<div class="col-12 mt-1 ml-1">
+						        <span class="label_footer text-center active">
+						    		Inicio
+						    	</span>
+							</div>
+						</span>
+					</div>
+					
+						
+
+					<div class="col-3 ">
+						<span class="cursor_css"  onclick="location.href='channels/favorites'" >
+				    		<div class="col-12 mt-2">
+								<span class="text-center">
+									<img class="icon_gold_footer ml-2" src="../images/buttons/button_channels_inactive.svg">
+								</span>
+							</div>
+				    		<div class="col-12 mt-1">
+						        <span class="label_footer text-center " style="display: flex;">
+						    		Mis <img src="../images/buttons/button_star3.svg" style="margin-left: 5px;">
+						    	</span>
+							</div>
+						</span>
+					</div>
+					<div class="col-3">
+						<span class="cursor_css"  onclick="location.href='shedule'" >
+				    		<div class="col-12 mt-2 ml-1">
+								<span class="text-center">
+									<img class="icon_gold_footer ml-1" src="../images/buttons/button_calendar_inactive.svg">
+								</span>
+							</div>
+				    		<div class="col-12 mt-1">
+						        <span class="label_footer text-center ">
+						    		Eventos
+						    	</span>
+							</div>
+						</span>
+					</div>
+					<div class="col-3 ">
+						<span class="cursor_css"  onclick="location.href='connections'" >
+				    		<div class="col-12 mt-2 ml-1">
+								<span class="text-center">
+									<img class="icon_gold_footer ml-2" src="../images/buttons/button_wifi_inactive.svg">
+								</span>
+							</div>
+				    		<div class="col-12 mt-1">
+						        <span class="label_footer text-center ">
+						    		Conexión
+						    	</span>
+							</div>
+						</span>
+					</div>
+
+					
+			    </div>
+			</div>
+		
+		<script type="text/javascript" src="js/lib/bootstrap-popper.js"></script>
+	    <script type="text/javascript" src="js/lib/bootstrap.js"></script>
+	    <script type="text/javascript" src="js/lib/bootstrap-toggle.js"></script>
+
+	  		<script type="text/javascript">
+		  if('serviceWorker' in navigator) {
+		    navigator.serviceWorker.register('service_worker.js')
+		      .then(function(registration) {
+		          /* NOOP */
+		        });
+		        
+		        navigator.serviceWorker.ready.then(function(registration) {
+		            /* NOOP */
+		        });
+		    }
+		    let wakeLock = null;
+
+			const requestWakeLock = async () => {
+			  try {
+			    wakeLock = await navigator.wakeLock.request('screen');
+
+			    wakeLock.addEventListener('release', () => {
+			      console.log('Wake Lock was released');
+			    });
+			    console.log('Wake Lock is active');
+			  }
+			  catch(err) {
+			    console.error(`${err.name}, ${err.message}`);
+			  }
+			};
+		</script>
+		<script type="text/javascript">
+			function insertParam(key, value) {
+			    key = encodeURIComponent(key);
+			    value = encodeURIComponent(value);
+
+			    // kvp looks like ['key1=value1', 'key2=value2', ...]
+			    var kvp = document.location.search.substr(1).split('&');
+			    let i=0;
+
+			    for(; i<kvp.length; i++){
+			        if (kvp[i].startsWith(key + '=')) {
+			            let pair = kvp[i].split('=');
+			            pair[1] = value;
+			            kvp[i] = pair.join('=');
+			            break;
+			        }
+			    }
+
+			    if(i >= kvp.length){
+			        kvp[kvp.length] = [key,value].join('=');
+			    }
+
+			    // can return this or...
+			    let params = kvp.join('&');
+
+			    // reload page with new params
+			    //document.location.search = params;
+			    return params;
+			}
+		</script>
+		
+		
+			<script type="text/javascript">
+				function set_fullscreen(){
+																												const element = document.querySelector('[aria-label="fullscreen"]');
+									element.click();
+							 
+															}
+				//$('.btn_iframe').click(function(e) {
+				$(document).on('click','.btn_iframe',function(){
+					$('.btn_iframe').css('display','none');
+					$('#iframe').removeAttr('style');
+				});
+			</script>
+			</body>
+</html>
